@@ -12,7 +12,7 @@ txt2srt.cfg (the configuration file for the executable and python script)
 txt2srt.exe (the executable script file)
 txt2srt.py (the Python script from which the executable is built)
 
-The script is designed for making Toolbox .txt files into .srt for subtitles in programs such as Aimersoft (the original version was intended for use with Premier Pro). It uses the 'txt2srt.cfg' file to determine the markers in your Toolbox files. Edit the 'txt2srt.cfg' file in a standard Text Editor, and replace the following markers with those that refer to the same fields in your own Toolbox texts:
+The script is designed for making Toolbox .txt files (http://www-01.sil.org/computing/toolbox/) into .srt for subtitles in programs such as VLC, Aimersoft, or Premier Pro. It uses the 'txt2srt.cfg' file to determine the markers in your Toolbox files. The time-alignments read from the Toolbox files are assumed to have been created by Transcriber 1.5.1 (http://sourceforge.net/projects/trans/files/transcriber/1.5.1/) and converted using 'trs2txt' (https://github.com/themadafrican/trs2txt) or a similar program. Edit the 'txt2srt.cfg' file in a standard Text Editor, and replace the following markers with those that refer to the same fields in your own Toolbox texts:
  \ref (line name and number)
  \ELANBegin (timecode beginning)
  \ELANEnd (timecode ending)
